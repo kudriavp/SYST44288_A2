@@ -1,3 +1,10 @@
+/*
+SYST44288
+October 5, 2018
+Students: Pavel K, Herit G
+Professor: Christina R.
+*/
+
 package a1;
    
 import java.io.DataInputStream;
