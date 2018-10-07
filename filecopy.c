@@ -43,11 +43,10 @@ int main(int argc, char *argv[])
     cid = fork();
     if(cid == -1)
     {
-		perror("Fork error. Exiting...");
-		exit(1);
+	perror("Fork error. Exiting...");
+	exit(1);
     }
-
-    if(cid == 0) //Child process
+    else if(cid == 0) //Child process
     {
         close(fileArr[1]); //Close output pipe
 
