@@ -1,3 +1,10 @@
+/*
+SYST44288
+October 5, 2018
+Students: Pavel K, Herit G
+Professor: Christina R.
+*/
+
 #include<stdio.h>
 #include<sys/types.h>
 #include<fcntl.h>
