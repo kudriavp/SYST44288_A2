@@ -4,7 +4,6 @@ October 5, 2018
 Students: Pavel K, Herit G
 Professor: Christina R.
 */
-package a1;
    
 import java.net.ServerSocket;
 import java.net.Socket;
@@ -13,13 +12,13 @@ import java.io.BufferedReader;
 import java.io.PrintWriter;
 import java.io.InputStreamReader;
 
-class A1 
+public class EchoServer 
 {
     public static void main(String args[]) 
     {
         try
         {
-            ServerSocket ss = new ServerSocket(6013);
+            ServerSocket ss = new ServerSocket(7777);
             while (true) 
             {
                 try (Socket s = ss.accept()) 
